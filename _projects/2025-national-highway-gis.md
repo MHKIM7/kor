@@ -5,7 +5,7 @@ description: 2024년 기준 고속국도, 일반국도, 국가지원지방도의
   및 성과 지표 산출
 img: /assets/img/2024_orig.png
 importance: 1
-category: ongoing
+category: completed
 period: 2025.10 – 2025.12
 sponsor: 국토연구원 (KRIHS)
 ---
