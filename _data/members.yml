@@ -3,12 +3,11 @@ pi:
     role: Associate Professor
     image: prof_pic.jpg
     interests: Transportation Geography, Spatial Big Data, GIScience
-    education: |
-      BS, Geography, Kyung Hee University.
-      MS, Geography, Kyung Hee University.
-      PhD, Geography, UC Santa Barbara.
-    position: Associate Professor, Department of Geography, Kyungpook National
-      University (since 2025.04)
+    education: |-
+      경희대학교 지리학과, 이학사
+      경희대학교 지리학과, 이학석사
+      UC Santa Barbara, Department of Geography, 지리학박사
+    position: 부교수, 경북대학교 지리학과 (since 2025.04)
     orcid: 0000-0003-4007-7048
 phd:
   - name: Jihyun Lee
