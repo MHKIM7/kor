@@ -45,6 +45,11 @@ nav_order: 4
     color: var(--global-text-color);
     margin: 0;
   }
+  .thumb-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
   .proj .thumb {
     width: 90px;
     height: 90px;
@@ -55,7 +60,6 @@ nav_order: 4
     transition: opacity 0.15s;
   }
   .proj .thumb:hover { opacity: 0.85; }
-
   #proj-lightbox {
     display: none;
     position: fixed;
@@ -96,15 +100,17 @@ nav_order: 4
         <h3>{{ n.title }}</h3>
         {% if n.description %}<p>{{ n.description }}</p>{% endif %}
       </div>
-      {% if n.img %}
-        {% assign img_first_char = n.img | slice: 0, 1 %}
-        {% if img_first_char == "/" %}
-          {% assign img_src = n.img %}
-        {% else %}
-          {% assign img_src = "/assets/img/" | append: n.img %}
-        {% endif %}
-        <div>
-          <img class="thumb" src="{{ img_src | relative_url }}" alt="{{ n.title }}" onclick="openProjLightbox('{{ img_src | relative_url }}')">
+      {% if n.images and n.images.size > 0 %}
+        <div class="thumb-group">
+          {% for item in n.images %}
+            {% assign img_first_char = item.image | slice: 0, 1 %}
+            {% if img_first_char == "/" %}
+              {% assign img_src = item.image %}
+            {% else %}
+              {% assign img_src = "/assets/img/" | append: item.image %}
+            {% endif %}
+            <img class="thumb" src="{{ img_src | relative_url }}" alt="{{ n.title }}" onclick="openProjLightbox('{{ img_src | relative_url }}')">
+          {% endfor %}
         </div>
       {% endif %}
     </div>
