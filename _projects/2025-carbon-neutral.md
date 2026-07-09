@@ -1,20 +1,18 @@
 ---
 layout: page
-title: Carbon-Neutral Priority-Zone Integrated Scenario Analysis
-description: Integrated scenarios that match spatial-typology priority zones with carbon-mitigation measures applicable to urban space.
-img: assets/img/projects/carbon.jpg
+title: 탄소중립 공간 유형별 우선구역 통합 시나리오 분석 및 실행전략 연구
+description: 탄소중립 달성을 위해 지자체가 주도하여 도시공간 내 탄소중립 감축수단을 적용할 수 있도록 통합적 공간계획 모형 및 시나리오를 제시하고자 함
+img: /assets/img/p-24.png
 importance: 3
 category: ongoing
 period: 2025.05 – 2025.10
-sponsor: Korea Research Institute for Human Settlements (KRIHS)
+sponsor: 국토연구 (KRIHS)
 ---
+한국의 2050 탄소중립 로드맵을 지원하기 위해 다양한 도시 공간 유형별 탄소 저감 조치의 우선순위 설정 모델을 제안함
 
-Building integrated scenarios that combine spatial-typology-based priority
-zones with carbon-mitigation measures applicable to urban space.
+도시 공간구조, 도시 내 토지이용 현황, 인구·사회적 특성, 탄소 배출 특성과 같은 공간 특성을 100m 단위로 종합하여 유형화함
 
-**Sponsor**: 국토연구원 (KRIHS)
+도출된 공간유형과 탄소중립 감축수단 별 감축 효과와 연계하여 데이터에 기반한 효과적인 감축수단 시나리오를 제시함
+
+**Sponsor**: 국토연구원 (KRIHS)  
 **Period**: 2025.05 – 2025.10
-
-The project proposes a model for prioritising carbon-reduction measures
-within different urban-spatial typologies, supporting Korea's 2050
-carbon-neutrality roadmap.
