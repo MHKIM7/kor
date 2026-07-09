@@ -52,7 +52,7 @@ content:
       - { name: title, label: Title, type: string, required: true }
       - { name: description, label: Description, type: string }
       - { name: img, label: Image, type: image, options: { path: news } }
-      - { name: date, label: Date, type: date }
+      - { name: date, label: "Date (예: 2026.07.09 또는 2026.07.09 - 2026.07.10)", type: string }
 
   # ===== MEMBERS =====
   - name: members
