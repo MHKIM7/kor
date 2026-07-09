@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sejong Mobility Big Data — Literature Review
-description: Literature review of mobility patterns by demographic and occupational segment for Sejong's mobility big data initiative.
+title: 세종시 모빌리티 빅데이터 활용을 위한 관련 연구 및 문헌조사
+description: 세종시 모빌리티 빅데이터 구축 사업을 지원하기 위한 인구통계학적 및 직업적 세부 집단별 모빌리티 패턴에 관한 문헌 고찰
 img: assets/img/projects/sejong.jpg
 importance: 16
 category: completed
@@ -9,8 +9,7 @@ period: 2022.11 – 2022.12
 sponsor: Korea Transport Institute (KOTI)
 ---
 
-Literature review of mobility patterns by sex, age, and occupation, and
-"life-zone" analysis to support Sejong's mobility big data initiative.
+세종시 모빌리티 빅데이터 구축 사업을 지원하기 위한 성별, 연령별, 직업별 모빌리티 패턴 문헌 고찰 및 생활권 분석
 
 **Sponsor**: 한국교통연구원 (KOTI)
 **Period**: 2022.11 – 2022.12
