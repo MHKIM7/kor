@@ -1,6 +1,6 @@
 pi:
   - name: Jae Hyun Lee
-    role: Associate Professor
+    role: 부교수
     image: prof_pic.jpg
     interests: Transportation Geography, Spatial Big Data, GIScience
     education: |-
@@ -10,14 +10,14 @@ pi:
     position: 부교수, 경북대학교 지리학과 (since 2025.04)
     orcid: 0000-0003-4007-7048
 phd:
-  - name: Jihyun Lee
-    role: PhD Student
+  - name: 이지현(Jihyun Lee
+    role: 일반대학원 지리학과 박사과정
     since: 2017-1
     image: members/jihyun_lee.jpg
     interests: Behavioral Geography
     note: 한국국토정보공사(LX) 재직중
   - name: Soojeong Choi
-    role: PhD Student
+    role: 일반대학원 지리학과 박사과정
     since: 2025-1
     image: members/soojeong_choi.jpg
     interests: Activity-Travel Behavior, Time Geography, Behavioral Modeling
