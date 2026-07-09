@@ -10,7 +10,7 @@ title: contact
 ## Reach Us
 
 - **Phone**: 053-950-7173
-- **Email**: member 페이지를 참고해주세요.
+- **Email**: member 페이지를 참고해주세요
 - **Department of Geography, KNU**: [https://geog.knu.ac.kr/](https://geog.knu.ac.kr/)
 
 ## Find Us
