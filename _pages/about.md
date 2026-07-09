@@ -199,18 +199,18 @@ latest_posts:
 <div class="pillars">
   <div class="pillar">
     <div class="pillar-num">01 — RESEARCH</div>
-    <h3>GIScience</h3>
-    <p>Representing and analysing the real world for the digital-twin era.</p>
+    <h3>지리정보과학</h3>
+    <p>디지털트윈 시대에 걸맞는, 현실 세계의 지리적 재현 및 분석 방법을 탐구합니다.</p>
   </div>
   <div class="pillar">
     <div class="pillar-num">02 — RESEARCH</div>
-    <h3>Spatial Big Data</h3>
-    <p>Discovering hidden patterns from mobile, social-media, and sensor data.</p>
+    <h3>공간 빅데이터</h3>
+    <p>모바일 데이터, SNS 및 센서 데이터를 활용해, 과거에는 확인할 수 없었떤 공간 패턴을 발견합니다.</p>
   </div>
   <div class="pillar">
     <div class="pillar-num">03 — RESEARCH</div>
-    <h3>Mobility &amp; Future Vehicles</h3>
-    <p>Tracking how EVs, AVs, and shared mobility reshape urban space.</p>
+    <h3>모빌리티 &amp; 미래차</h3>
+    <p>전기차, 자율주행차, 공유 자동차가 도시 공간을 어떻게 바꾸어 나가는지 확인합니다.</p>
   </div>
 </div>
 
