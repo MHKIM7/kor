@@ -6,7 +6,6 @@ description: People at the GIScience & Spatial Bigdata Lab.
 nav: true
 nav_order: 1
 ---
-
 <style>
   .member-section { margin-top: 1.5rem; margin-bottom: 2.5rem; }
   .member-section h2 { font-size: 1.4rem; margin-bottom: 1rem; }
@@ -31,10 +30,8 @@ nav_order: 1
   .member-card .note { font-size: 0.8rem; font-style: italic; color: #888; margin-top: 0.3rem; }
   .member-card .email { font-size: 0.85rem; margin-top: 0.3rem; }
 </style>
-
 {% assign groups = "pi,phd,ms,ug,alumni" | split: "," %}
 {% assign labels = "Principal Investigator,PhD Students,MS Students,Undergraduate Students,Alumni" | split: "," %}
-
 {% for group in groups %}
   {% assign members = site.data.members[group] %}
   {% if members and members.size > 0 %}
@@ -45,7 +42,13 @@ nav_order: 1
       <div class="member-card">
         {% assign pos = m.image_position | default: "center center" %}
         {% if m.image %}
-          <img src="{{ '/assets/img/' | append: m.image | relative_url }}" alt="{{ m.name }}" style="object-position: {{ pos }};" onerror="this.src='{{ '/assets/img/prof_pic.jpg' | relative_url }}'">
+          {% assign img_first_char = m.image | slice: 0, 1 %}
+          {% if img_first_char == "/" %}
+            {% assign img_src = m.image %}
+          {% else %}
+            {% assign img_src = "/assets/img/" | append: m.image %}
+          {% endif %}
+          <img src="{{ img_src | relative_url }}" alt="{{ m.name }}" style="object-position: {{ pos }};" onerror="this.src='{{ '/assets/img/prof_pic.jpg' | relative_url }}'">
         {% else %}
           <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="{{ m.name }}" style="object-position: {{ pos }};">
         {% endif %}
