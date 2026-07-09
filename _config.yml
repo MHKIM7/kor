@@ -164,6 +164,8 @@ collections:
     output: true
   teachings:
     output: true
+  news:
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
