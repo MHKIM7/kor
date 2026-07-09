@@ -1,16 +1,14 @@
 ---
 layout: page
-title: Truck Travel Patterns and EV Charging Infrastructure Siting
-description: Freight-vehicle travel pattern analysis using DTG data and identification of suitable charging-infrastructure sites.
-img: assets/img/projects/truck.jpg
+title: 화물자동차 통행 특성 및 충전인프라 적정입지 분석
+description: 화물차 DTG 데이터를 활용하여 화물차의 통행 특성을 분석하고, 화물차 정차 구간과 공간 질의 조건을 활용해 충전인프라 적정 입지를 분석함
+img: /assets/img/microsoftteams-image-15_orig.png
 importance: 12
 category: completed
 period: 2023.04 – 2023.09
-sponsor: Korea Environment Institute (KEI)
+sponsor: 한국환경연구원 (KEI)
 ---
-
-Analysis of freight-vehicle travel patterns using DTG (Digital Tachograph)
-data and identification of suitable charging-infrastructure locations.
+화물차 DTG 데이터를 활용하여 화물차의 통행 특성을 분석하고, 화물차 정차 구간과 공간 질의 조건을 활용해 충전인프라 적정 입지를 분석함
 
 **Sponsor**: 한국환경연구원 (KEI)
 **Period**: 2023.04 – 2023.09
