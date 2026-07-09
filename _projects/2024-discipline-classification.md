@@ -6,7 +6,7 @@ img: /assets/img/projects/classification.jpg
 importance: 7
 category: completed
 period: 2024.04 – 2025.01
-sponsor: 한국연구재 (NRF)
+sponsor: 한국연구재단 (NRF)
 ---
 Survey of domestic and international classification systems and review of
 improvement directions for the academic-standard classification.
