@@ -29,14 +29,18 @@ content:
       - { name: layout, type: string, default: page, hidden: true }
       - { name: title, label: Project title, type: string, required: true }
       - { name: description, label: Short description, type: string }
-      - { name: img, label: Cover image, type: image, options: { path: projects } }
+      - name: images
+        label: Images
+        type: image
+        list: true
+        options: { path: projects }
       - { name: importance, label: Display order (lower = first), type: number, default: 99 }
       - { name: category, label: Category, type: select, options: { values: [ongoing, completed] }, default: ongoing }
-      - { name: period, label: "Period (e.g. 2026.04 – 2026.10)", type: string }
+      - { name: period, label: "Period (e.g. 2026.04 - 2026.10)", type: string }
       - { name: sponsor, label: Sponsor, type: string }
       - { name: body, label: Description, type: rich-text }
 
-# ===== news =====
+  # ===== news =====
   - name: news
     label: News
     description: Lab news and updates.
