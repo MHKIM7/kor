@@ -61,8 +61,8 @@ nav_order: 3
     margin-top: 0.9rem;
   }
   .thumb {
-    width: 110px;
-    height: 110px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
     border-radius: 6px;
     cursor: zoom-in;
